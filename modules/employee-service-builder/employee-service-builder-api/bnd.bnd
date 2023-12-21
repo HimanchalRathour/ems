@@ -1,0 +1,10 @@
+Bundle-Name: employee-service-builder-api
+Bundle-SymbolicName: com.adjecti.employee.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.adjecti.employee.exception,\
+	com.adjecti.employee.model,\
+	com.adjecti.employee.service,\
+	com.adjecti.employee.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../employee-service-builder-service/service.xml

@@ -1,0 +1,10 @@
+Bundle-Name: user-service-builder-api
+Bundle-SymbolicName: com.adjecti.user.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.adjecti.user.exception,\
+	com.adjecti.user.model,\
+	com.adjecti.user.service,\
+	com.adjecti.user.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../user-service-builder-service/service.xml
